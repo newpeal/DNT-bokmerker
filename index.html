@@ -163,6 +163,9 @@
         function faviconUrl(url) {
             try {
                 const domain = new URL(url).hostname;
+                if (domain.endsWith('-my.sharepoint.com')) {
+                    return 'https://res.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/onedrive_32x1.svg';
+                }
                 if (domain.endsWith('.sharepoint.com')) {
                     return 'https://res.cdn.office.net/files/fabric-cdn-prod_20230815.002/assets/brand-icons/product/svg/sharepoint_32x1.svg';
                 }
