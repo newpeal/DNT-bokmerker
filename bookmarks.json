@@ -35,6 +35,18 @@
         "name": "Foreningsnett"
     },
     {
+        "url": "https://dennorsketuristforening-my.sharepoint.com/my",
+        "name": "OneDrive"
+    },
+    {
+        "url": "https://outlook.cloud.microsoft/mail/",
+        "name": "Outlook"
+    },
+    {
+        "url": "https://teams.cloud.microsoft/",
+        "name": "Teams"
+    },
+    {
         "url": "https://www.dnt.no/",
         "name": "DNT.no"
     },
